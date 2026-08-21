@@ -1,0 +1,37 @@
+{
+  "product": {
+    "name": "Project Context Protocol",
+    "shortName": "PCP",
+    "tagline": "Give every AI project a durable operating context.",
+    "oneLiner": "A portable file-based protocol for instructions, knowledge, skills, decisions, constraints, and current state.",
+    "principle": "Chats are working sessions. Project files are durable operating context."
+  },
+  "hero": {
+    "headline": "Stop restarting your AI project every chat.",
+    "subheadline": "Project Context Protocol gives any LLM a structured way to recover what matters, respect prior decisions, and continue from the latest verified state.",
+    "primaryAction": "Set up a project",
+    "secondaryAction": "Read the protocol"
+  },
+  "contextTypes": [
+    {"name": "Instructions", "description": "How the model must work."},
+    {"name": "Knowledge", "description": "Facts, architecture, specifications, and source material."},
+    {"name": "Skills", "description": "Repeatable procedures and governed methods."},
+    {"name": "State", "description": "The latest verified checkpoint, decisions, constraints, and next action."}
+  ],
+  "benefits": [
+    "Less repeated prompting",
+    "Faster session recovery",
+    "Smaller working context",
+    "Fewer contradictions",
+    "Portable across LLMs",
+    "Inspectable project truth",
+    "Cleaner human and model handoffs",
+    "No API required"
+  ],
+  "commands": [
+    {"command": "Continue from the current project state.", "purpose": "Resume work from the latest verified checkpoint."},
+    {"command": "Update the project state from what we just completed.", "purpose": "Create the next durable state."},
+    {"command": "Verify this against the project files before answering.", "purpose": "Ground an answer in authoritative project context."},
+    {"command": "Record this as a project decision.", "purpose": "Preserve a durable decision."}
+  ]
+}
