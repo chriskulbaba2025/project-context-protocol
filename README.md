@@ -1,6 +1,14 @@
+<div align="center">
+
+<img src="assets/logo.svg" alt="Project Context Protocol logo" width="180" />
+
 # Project Context Protocol
 
 **A portable context architecture for long-running work with any LLM.**
+
+**Version 1.1.0** · Created by [Omnipressence](https://omnipressence.com)
+
+</div>
 
 Project Context Protocol (PCP) turns an AI project from a collection of disconnected chats into a structured working environment built around four durable context types:
 
@@ -111,7 +119,21 @@ That means orient first, retrieve only what is relevant, go deeper only when nec
 - `docs/QUICKSTART.md` — minimal operating workflow
 - `docs/ARCHITECTURE.md` — context architecture and authority model
 - `ui/content.json` — structured copy for a future interface or onboarding experience
-- `assets/logo.svg` — repository logo asset
+- `assets/logo.svg` — official repository logo
+- `VERSION` — current release version
+- `CHANGELOG.md` — release history
+
+## Versioning
+
+PCP follows semantic versioning: `MAJOR.MINOR.PATCH`.
+
+- **MAJOR** — breaking protocol or file-contract changes
+- **MINOR** — backward-compatible capabilities, templates, or workflow improvements
+- **PATCH** — documentation, wording, and non-breaking corrections
+
+Current release: **1.1.0**
+
+See [`CHANGELOG.md`](CHANGELOG.md) for release history.
 
 ## Inspiration and attribution
 
@@ -119,6 +141,12 @@ Project Context Protocol was inspired in part by the context-engineering ideas e
 
 Original project: https://github.com/volcengine/OpenViking
 
+## Created by Omnipressence
+
+Project Context Protocol is maintained by **Omnipressence**, focused on governed AI systems, automation, and practical AI operating environments for business.
+
+Website: https://omnipressence.com
+
 ## Status
 
-Version 1.0 establishes the portable context protocol and project templates. It intentionally does not depend on a specific model, API, vector database, or vendor-specific memory system.
+Version 1.1.0 establishes the branded, versioned public release structure while preserving the portable context protocol and project templates. It intentionally does not depend on a specific model, API, vector database, or vendor-specific memory system.
