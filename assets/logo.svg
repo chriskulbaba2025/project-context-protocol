@@ -1,0 +1,12 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Project Context Protocol logo</title>
+<desc id="desc">Four connected context nodes surrounding a central project state.</desc>
+<rect width="1024" height="1024" rx="220" fill="#0B1020"/>
+<circle cx="512" cy="512" r="132" fill="#FFFFFF"/>
+<circle cx="512" cy="512" r="70" fill="#0B1020"/>
+<path d="M512 380V222M644 512H802M512 644V802M380 512H222" stroke="#FFFFFF" stroke-width="34" stroke-linecap="round"/>
+<circle cx="512" cy="190" r="72" fill="#FFFFFF"/>
+<circle cx="834" cy="512" r="72" fill="#FFFFFF"/>
+<circle cx="512" cy="834" r="72" fill="#FFFFFF"/>
+<circle cx="190" cy="512" r="72" fill="#FFFFFF"/>
+</svg>
